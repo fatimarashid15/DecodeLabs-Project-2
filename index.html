@@ -7,18 +7,6 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
-
-    <script>
-const btn = document.querySelector('.hamburger');
-const menu = document.querySelector('#nav-menu');
-btn.addEventListener('click', function() {
-    if(menu.style.display === 'flex') {
-        menu.style.display = 'none';
-    } else {
-        menu.style.display = 'flex';
-    }
-});
-</script>
     
 <body>
     <header>
@@ -115,5 +103,18 @@ btn.addEventListener('click', function() {
     <footer>
     <p>&copy; 2026 Desi Bites. All rights reserved.</p>
 </footer>
+
+     <script>
+const btn = document.querySelector('.hamburger');
+const menu = document.querySelector('#nav-menu');
+btn.addEventListener('click', function() {
+    if(menu.style.display === 'flex') {
+        menu.style.display = 'none';
+    } else {
+        menu.style.display = 'flex';
+    }
+});
+</script>
+    
 </body>
 </html>

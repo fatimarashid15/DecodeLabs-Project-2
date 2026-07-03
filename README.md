@@ -3,7 +3,7 @@
 A fully responsive restaurant website built with pure HTML & CSS, featuring authentic Pakistani cuisine with a modern elegant design.
 
 ## 🚀 Live Demo
-[View Live Site](https://fatimarashid15.github.io/DecodeLabs-Project2)
+[View Live Site](https://fatimarashid15.github.io/DecodeLabs-Project-2/)
 
 ## 🍽️ About
 Desi Bites is an authentic Pakistani restaurant website showcasing traditional recipes and dishes with a warm, inviting design that works perfectly on all devices.

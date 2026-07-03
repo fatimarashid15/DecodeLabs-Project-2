@@ -7,12 +7,25 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
+
+    <script>
+const btn = document.querySelector('.hamburger');
+const menu = document.querySelector('#nav-menu');
+btn.addEventListener('click', function() {
+    if(menu.style.display === 'flex') {
+        menu.style.display = 'none';
+    } else {
+        menu.style.display = 'flex';
+    }
+});
+</script>
+    
 <body>
     <header>
         <nav>
             <h1>Desi Bites</h1>
-            <button class="hamburger" popovertarget="nav-menu">Menu</button>
-            <ul id="nav-menu" popover>
+            <button class="hamburger">☰</button>
+            <ul id="nav-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#menu">Menu</a></li>
                 <li><a href="#about">About</a></li>

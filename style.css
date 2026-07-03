@@ -300,4 +300,25 @@ nav {
     .hero h2 {
         font-size: 30px;
     }
+
+    #nav-menu {
+        display: none;
+        flex-direction: column;
+        background-color: #1a0a00;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+    }
+
+    #nav-menu li {
+        padding: 12px 0;
+        border-bottom: 1px solid #333;
+    }
+
+    #nav-menu li a {
+        color: white;
+        font-size: 16px;
+    }
 }
